@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  background: #3cd19e;
+
+}
+
+container {
+  background: #3cd19e;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+h1{
+  color: goldenrod;
+}
+
+.clock{
+  width: 30rem;
+  height: 30rem;
+  background: black;
+  border: 10px solid white;
+  border-radius: 50%;
+  margin: 50px auto;
+  padding: 2rem;
+  position: relative;
+
+      /* 
+      box-shadow:
+        0 0 0 4px rgba(0,0,0,0.1),
+        inset 0 0 0 3px #EFEFEF,
+        inset 0 0 10px black,
+        0 0 10px rgba(0,0,0,0.2);  */
+}

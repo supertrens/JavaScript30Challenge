@@ -1,7 +1,15 @@
+:root{
+  --base: #FFFF00;
+  --spacing: 10px;
+  --blur: 3px;
+  --mainBkgColor: #1D5962;
+  --mainTextColor: #EBF4FA;
+}
+
 body {
   text-align: center;
-  background: #1D5962;
-  color: #EBF4FA;
+  background: var(--mainBkgColor);
+  color: var(--mainTextColor);
   font-family: "helvetica neue", sans-serif;
   font-weight: 100;
   font-size: 50px;
@@ -15,11 +23,7 @@ input {
   width: 100px;
 }
 
-:root{
-  --base: #FFFF00;
-  --spacing: 10px;
-  --blur: 3px;
-}
+
 
 img {
   padding: var(--spacing);
